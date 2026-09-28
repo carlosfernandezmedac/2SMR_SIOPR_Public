@@ -56,6 +56,14 @@ Una vez instalado, para crear el USB de arranque:
 4. Elegir el tipo de arranque: **"Disco o imagen ISO"**.
 5. Grabar la imagen.
 
-> 💡 Con este mismo procedimiento se puede crear, por ejemplo, un USB de arranque de **Ubuntu Server** desde Windows: es justo lo que harás en el [ejercicio de este tema](ejercicios.md).
+Ya tienes el USB. Ahora hay que arrancar la instalación desde él:
+
+6. Conectar el USB al equipo donde se va a instalar el SO y encenderlo.
+7. Entrar en la BIOS/UEFI (la tecla depende del fabricante: F2, F10, F12, Supr...) o abrir el menú de arranque, y poner el USB como primer dispositivo de arranque (boot order).
+8. Guardar los cambios y salir. El equipo arranca desde el USB y aparece el asistente de instalación.
+
+> 💡 Si el USB no aparece como opción de arranque, revisa que el modo de la BIOS/UEFI (UEFI o Legacy) coincida con el esquema de partición que elegiste en Rufus (GPT para UEFI, MBR para BIOS/Legacy).
+
+> 💡 Con este mismo procedimiento se puede crear, por ejemplo, un USB de arranque de **Ubuntu Server** desde Windows.
 
 </details>

@@ -140,6 +140,7 @@ Con el SO **apagado** (para copiar todo tal cual quedó configurado), con la her
 2. Descarga **Rufus** desde su página oficial.
 3. Selecciona el USB y el tipo de arranque: **"Disco o imagen ISO"**.
 
+![alt text](img/rufus.png)
 ---
 
 ## 6. Virtualización
