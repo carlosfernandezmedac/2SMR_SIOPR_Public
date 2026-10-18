@@ -5,7 +5,7 @@
 ## Temas
 
 - [**Tema 3:** Instalación y explotación básica de SO de servidor propietarios](tema03/apuntes.md)
-- **Tema 4:** Instalación y explotación básica de SO de servidor libres *(pendiente)*
+- [**Tema 4:** Instalación y explotación básica de SO de servidor libres] (tema04/apuntes.md)
 
 ---
 

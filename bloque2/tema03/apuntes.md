@@ -215,13 +215,4 @@ flowchart TD
     class T,P,P1,P2,P3,I,C,C1,C2,C3 n;
 ```
 
----
-
-## Bibliografía
-
-- Jang, M. y Zinkann, E. (2009). *Ubuntu server administration*. McGraw-Hill.
-- Hagman, S. e Indiresh, K. (2015). *Sistemas Operativos Libres y Propietarios: Comparación Directa*. Revista Antioqueña de las Ciencias Computacionales, 5(1).
-- Pérez, J. C., Carballeira, F. G., de Miguel Anasagasti, P. y Costoya, F. P. (2001). *Sistemas operativos*. McGraw-Hill Interamericana.
-- Thomas, O. (2020). *Windows Server 2019 Inside Out*. Microsoft Press.
-
 **Enlaces útiles:** [Requisitos de hardware de Windows Server](https://learn.microsoft.com/es-es/windows-server/get-started/hardware-requirements) · [Soporte de Microsoft](https://support.microsoft.com/es-es/contactus)
