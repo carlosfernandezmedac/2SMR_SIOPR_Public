@@ -238,21 +238,9 @@ Permite que un usuario de la red se conecte a otro equipo que lo tenga activado,
 
 ## 6. Resumen y resolución del caso práctico de la unidad
 
-```mermaid
-flowchart TD
-    A["Tipos de usuarios/grupos"]:::windows --> A1["De red"]:::windows
-    A --> A2["Locales"]:::windows
-    B["Active Directory"]:::windows --> B1["Funcionalidades"]:::windows
-    B --> B2["Estándares (DHCP, DNS, Kerberos, LDAP)"]:::windows
-    B --> B3["Elementos (árbol, dominio, bosque)"]:::windows
-    C["Administración remota"]:::windows --> C1["Modo gráfico / texto"]:::windows
-    C --> C2["Orientada a sesión o no"]:::windows
-
-    classDef windows fill:#4A90D9,color:#fff;
-```
-
 - Hay dos tipos de usuarios/grupos: **locales** (solo válidos en el equipo donde se crean) y **de red o globales** (válidos en todo el dominio, se gestionan desde **Active Directory**).
 - **Active Directory (AD)** es el servicio de directorio de Windows: una base de datos centralizada y jerárquica de usuarios, grupos, equipos y políticas de toda la red.
+- **Estándares** (DHCP, DNS, Kerberos, LDAP)
 - Estructura lógica de AD: **dominio** → **árbol** (dominios con el mismo sufijo de nombre) → **bosque** (varios árboles). Dentro de un dominio, los recursos se organizan en **Unidades Organizativas (OU)**.
 - Los grupos de red tienen un **ámbito**: local, global o universal — cada uno con distinta visibilidad y gestión.
 - La administración de un servidor se suele hacer **en remoto**: modo texto (Telnet, inseguro) o modo gráfico (RDP, VNC/TeamViewer).
